@@ -63,12 +63,3 @@ class snmp_burp(object):
         for i in xrange(len(self.result)):
             self.config.write_file(contents=self.result[i],file=file) 
 
-if __name__ == '__main__':
-    import sys
-    sys.path.append("../")
-    from comm.config import *
-    c=config()
-    ipdict={'smb': ['10.211.55.3:445']} 
-    pinglist=['122.225.81.129']
-    test=snmp_burp(c)
-    test.run(ipdict,pinglist,50,file="../result/test")
