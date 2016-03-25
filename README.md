@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # fenghuangscan_v3
 
 wilson@wilson-2:~/tools/fenghuangscanner_$ python main.py -h
@@ -15,3 +16,6 @@ optional arguments:
   --P ISPING         --P not mean no ping frist,default yes
   --p USER_PORTS     --p scan ports;like 21,80,445 or 22-1000
   --file FILE        get ips or domains for this file
+=======
+# fenghuangscanner_v3
+>>>>>>> fc6d7e4238b9c6359cc42852db6f75be8007bc45
