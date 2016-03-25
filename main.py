@@ -42,7 +42,7 @@ if __name__ == '__main__':
     p=portscan(c,user_posts)
     p.run(isping,threads,ips,file)
 
-    print p.ipdict,p.pinglist
+    #print p.ipdict,p.pinglist
     plugins=pluginFactory(c)
     for pluginname in plugins.pluginList:
         #print pluginname
