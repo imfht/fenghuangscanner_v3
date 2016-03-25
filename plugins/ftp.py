@@ -69,7 +69,7 @@ if __name__ == '__main__':
     sys.path.append("../")
     from comm.config import *
     c=config()
-    ipdict={'ftp': ['118.194.32.1:21']} 
+    ipdict={'ftp': ['192.168.1.1:21']} 
     pinglist=['192.168.1.1']
     test=ftp_burp(c)
     test.run(ipdict,pinglist,50,file="../result/test")
